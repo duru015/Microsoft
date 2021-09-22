@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Nunito:wght@200&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+header{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+   
+   
+}
+header ul{
+    list-style-type: none;
+    
+}
+.a2{
+    flex-grow: 1;
+    padding-left: 40px;
+}
+header li{
+    
+    display: inline-block;
+    padding-left: 10px;
+  
+   
+}
+header li a{
+    text-decoration: none;
+    color: black;
+}
+header li a:hover{
+    border-bottom: 1px solid black;
+}
+.img8{
+    height: 20px;
+    
+}
+.section1{
+    
+    height: 400px;
+    width: 100%;
+    background: url('https://i.ibb.co/zGSDGCL/slide1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  text-align: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    
+    
+    
+}
+.section1 .a{
+margin-bottom: 10px;
+}
+.btn{
+    background: #262626;
+    border: 1px solid #262626;
+    padding: 10px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.btn:hover{
+    background: #616161;
+    color: white;
+}
+.box1{
+    display: flex;
+    /* align-items:center; */
+    justify-content:center;
+    /* margin-top:5px; */
+    width: 100%;
+    padding: 5px 0px;
+   
+}
+.c{
+    padding-left: 20px;
+}
+.box h1{
+    font-size: 20px;
+}
+
+.box1 img{
+    padding:15px 0px;
+    width: 100%;
+    
+}
+.box h3{
+    padding-top: 5px;
+    font-size: 17px;
+    color: #52B4ED;
+}
+.box h3:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+.banner{
+
+    height: 350px;
+    width: 100%;
+    background: url('https://i.ibb.co/tBJGPD9/xbox.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-items: left; */
+    text-align: left;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 50px 0 0 30px;
+    
+    
+    
+}
+.banner .a{
+    margin-bottom: 20px;
+    }
+   .btn1{
+       
+     width: 98px;
+    background: #262626;
+    border: 1px solid #262626;
+    padding: 10px;
+    color: blanchedalmond;
+    text-decoration: none;
+    
+    }
+    .btn1:hover{
+        background: rgb(134, 133, 133);
+        color: white;
+    }
+    .banner1{
+        margin-top: 10px;
+        height: 350px;
+        width: 100%;
+        background: url('https://i.ibb.co/72cgtsz/carbon.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        /* justify-content: flex-start; */
+        /* align-items: left; */
+        text-align: left;
+        flex-direction: column;
+        
+        padding: 90px 0 0 30px;
+        color: white;
+        
+        
+        
+    }
+    .banner1 .a{
+        padding-bottom: 10px;
+    }
+    .banner1 .b{
+        padding-bottom: 5px;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        /* justify-content: flex-start;
+        text-align-last: left; */
+
+        padding: 20px 0px;
+    }
+    .content img{
+       
+        padding-left: 10px;
+        /* align-content: center; */
+    }
+.footer{
+    color: #616161;
+    font-size: 15px;
+    padding: 20px 0;
+    background: #F2F2F2;
+    display: block;
+}
+.footer h1{
+    
+    font-size: 17px;
+}
+.footer ul{
+    padding: 5px 0px;
+    list-style-type: none;
+}
+.footer li{
+    padding:8px 0px 0px 0px ;
+}
+.footer div{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-evenly; */
+    
+
+}
+.g1 a{
+    color: #616161; ;
+    text-decoration: none;
+}
+.g1 a:hover{
+    color: rgb(199, 73, 73);
+}
+
